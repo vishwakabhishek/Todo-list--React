@@ -16,7 +16,7 @@ export const AddTodo = ({addTodo}) => {
     }
   return (
     <div className='container'>
-        <form onSubmit={submit}>
+        <form onSubmit={submit} id="form">
   <div className="mb-3">
     <label htmlFor="title" className="form-label">Title</label>
     <input type="text"  value={title} onChange={(e)=>setTitle(e.target.value)} className="form-control" id="title" aria-describedby="emailHelp"/>
